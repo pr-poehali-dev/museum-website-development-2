@@ -90,6 +90,13 @@ const Index = () => {
             <button className="text-foreground hover:text-secondary transition-colors">
               О музее
             </button>
+            <a 
+              href="/admin"
+              className="text-foreground hover:text-secondary transition-colors flex items-center gap-1"
+            >
+              <Icon name="ShieldCheck" size={16} />
+              Админ
+            </a>
           </div>
 
           <div className="flex items-center gap-3">

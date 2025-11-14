@@ -1,0 +1,22 @@
+{
+  "tests": [
+    {
+      "name": "Get all exhibits",
+      "method": "GET",
+      "path": "/",
+      "expectedStatus": 200
+    },
+    {
+      "name": "Create new exhibit",
+      "method": "POST",
+      "path": "/",
+      "body": {
+        "title": "Test Exhibit",
+        "period": "Test Period",
+        "description": "Test Description"
+      },
+      "expectedStatus": 201,
+      "expectedStatus": 201
+    }
+  ]
+}
